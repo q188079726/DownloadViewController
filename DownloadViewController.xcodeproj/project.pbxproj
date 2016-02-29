@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		9C5F0CE61C7D408900C8F59E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F0CE51C7D408900C8F59E /* main.m */; };
 		9C5F0CE91C7D408900C8F59E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F0CE81C7D408900C8F59E /* AppDelegate.m */; };
-		9C5F0CEC1C7D408900C8F59E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F0CEB1C7D408900C8F59E /* ViewController.m */; };
 		9C5F0CEF1C7D408900C8F59E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5F0CED1C7D408900C8F59E /* Main.storyboard */; };
 		9C5F0CF11C7D408900C8F59E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5F0CF01C7D408900C8F59E /* Assets.xcassets */; };
 		9C5F0CF41C7D408900C8F59E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5F0CF21C7D408900C8F59E /* LaunchScreen.storyboard */; };
+		9C5F0CFD1C7D40A100C8F59E /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F0CFC1C7D40A100C8F59E /* DownloadViewController.m */; };
+		9C5F0D001C7D40C000C8F59E /* DownloadQueueController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F0CFF1C7D40C000C8F59E /* DownloadQueueController.m */; };
+		9C5F0D031C7D40D400C8F59E /* DownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F0D021C7D40D400C8F59E /* DownloadOperation.m */; };
+		9C5F0D061C7D436D00C8F59E /* MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F0D051C7D436D00C8F59E /* MD5.m */; };
+		9CC284381C7EF8D700D76502 /* DownloadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC284361C7EF8D700D76502 /* DownloadTableViewCell.m */; };
+		9CC284391C7EF8D700D76502 /* DownloadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC284371C7EF8D700D76502 /* DownloadTableViewCell.xib */; };
+		9CC2843C1C7FF39400D76502 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC2843B1C7FF39400D76502 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,23 @@
 		9C5F0CE51C7D408900C8F59E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9C5F0CE71C7D408900C8F59E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C5F0CE81C7D408900C8F59E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9C5F0CEA1C7D408900C8F59E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9C5F0CEB1C7D408900C8F59E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9C5F0CEE1C7D408900C8F59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C5F0CF01C7D408900C8F59E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C5F0CF31C7D408900C8F59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C5F0CF51C7D408900C8F59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5F0CFB1C7D40A100C8F59E /* DownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadViewController.h; sourceTree = "<group>"; };
+		9C5F0CFC1C7D40A100C8F59E /* DownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadViewController.m; sourceTree = "<group>"; };
+		9C5F0CFE1C7D40C000C8F59E /* DownloadQueueController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadQueueController.h; sourceTree = "<group>"; };
+		9C5F0CFF1C7D40C000C8F59E /* DownloadQueueController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadQueueController.m; sourceTree = "<group>"; };
+		9C5F0D011C7D40D400C8F59E /* DownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadOperation.h; sourceTree = "<group>"; };
+		9C5F0D021C7D40D400C8F59E /* DownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadOperation.m; sourceTree = "<group>"; };
+		9C5F0D041C7D436D00C8F59E /* MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5.h; sourceTree = "<group>"; };
+		9C5F0D051C7D436D00C8F59E /* MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5.m; sourceTree = "<group>"; };
+		9CC284351C7EF8D700D76502 /* DownloadTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadTableViewCell.h; sourceTree = "<group>"; };
+		9CC284361C7EF8D700D76502 /* DownloadTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadTableViewCell.m; sourceTree = "<group>"; };
+		9CC284371C7EF8D700D76502 /* DownloadTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloadTableViewCell.xib; sourceTree = "<group>"; };
+		9CC2843A1C7FF39400D76502 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9CC2843B1C7FF39400D76502 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +56,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C5B9B1D1C8039AC00C0381B /* m */ = {
+			isa = PBXGroup;
+			children = (
+				9C5F0D011C7D40D400C8F59E /* DownloadOperation.h */,
+				9C5F0D021C7D40D400C8F59E /* DownloadOperation.m */,
+			);
+			name = m;
+			sourceTree = "<group>";
+		};
+		9C5B9B1E1C8039B400C0381B /* c */ = {
+			isa = PBXGroup;
+			children = (
+				9C5F0CFE1C7D40C000C8F59E /* DownloadQueueController.h */,
+				9C5F0CFF1C7D40C000C8F59E /* DownloadQueueController.m */,
+			);
+			name = c;
+			sourceTree = "<group>";
+		};
 		9C5F0CD81C7D408900C8F59E = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +93,16 @@
 		9C5F0CE31C7D408900C8F59E /* DownloadViewController */ = {
 			isa = PBXGroup;
 			children = (
+				9C5B9B1E1C8039B400C0381B /* c */,
+				9C5B9B1D1C8039AC00C0381B /* m */,
+				9CC2843D1C8002EF00D76502 /* v */,
+				9CC2843A1C7FF39400D76502 /* ViewController.h */,
+				9CC2843B1C7FF39400D76502 /* ViewController.m */,
+				9C5F0CED1C7D408900C8F59E /* Main.storyboard */,
+				9C5F0D041C7D436D00C8F59E /* MD5.h */,
+				9C5F0D051C7D436D00C8F59E /* MD5.m */,
 				9C5F0CE71C7D408900C8F59E /* AppDelegate.h */,
 				9C5F0CE81C7D408900C8F59E /* AppDelegate.m */,
-				9C5F0CEA1C7D408900C8F59E /* ViewController.h */,
-				9C5F0CEB1C7D408900C8F59E /* ViewController.m */,
-				9C5F0CED1C7D408900C8F59E /* Main.storyboard */,
 				9C5F0CF01C7D408900C8F59E /* Assets.xcassets */,
 				9C5F0CF21C7D408900C8F59E /* LaunchScreen.storyboard */,
 				9C5F0CF51C7D408900C8F59E /* Info.plist */,
@@ -77,6 +117,18 @@
 				9C5F0CE51C7D408900C8F59E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CC2843D1C8002EF00D76502 /* v */ = {
+			isa = PBXGroup;
+			children = (
+				9C5F0CFB1C7D40A100C8F59E /* DownloadViewController.h */,
+				9C5F0CFC1C7D40A100C8F59E /* DownloadViewController.m */,
+				9CC284351C7EF8D700D76502 /* DownloadTableViewCell.h */,
+				9CC284361C7EF8D700D76502 /* DownloadTableViewCell.m */,
+				9CC284371C7EF8D700D76502 /* DownloadTableViewCell.xib */,
+			);
+			name = v;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C5F0CF41C7D408900C8F59E /* LaunchScreen.storyboard in Resources */,
+				9CC284391C7EF8D700D76502 /* DownloadTableViewCell.xib in Resources */,
 				9C5F0CF11C7D408900C8F59E /* Assets.xcassets in Resources */,
 				9C5F0CEF1C7D408900C8F59E /* Main.storyboard in Resources */,
 			);
@@ -149,8 +202,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C5F0CEC1C7D408900C8F59E /* ViewController.m in Sources */,
+				9C5F0D031C7D40D400C8F59E /* DownloadOperation.m in Sources */,
+				9C5F0D061C7D436D00C8F59E /* MD5.m in Sources */,
+				9CC2843C1C7FF39400D76502 /* ViewController.m in Sources */,
 				9C5F0CE91C7D408900C8F59E /* AppDelegate.m in Sources */,
+				9C5F0D001C7D40C000C8F59E /* DownloadQueueController.m in Sources */,
+				9C5F0CFD1C7D40A100C8F59E /* DownloadViewController.m in Sources */,
+				9CC284381C7EF8D700D76502 /* DownloadTableViewCell.m in Sources */,
 				9C5F0CE61C7D408900C8F59E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DownloadViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.crc.DownloadViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DownloadViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.crc.DownloadViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +360,7 @@
 				9C5F0CFA1C7D408900C8F59E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

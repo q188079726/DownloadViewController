@@ -2,7 +2,7 @@
 //  ViewController.h
 //  DownloadViewController
 //
-//  Created by 李硕 on 16/2/24.
+//  Created by 李硕 on 16/2/26.
 //  Copyright © 2016年 李硕. All rights reserved.
 //
 
@@ -10,6 +10,4 @@
 
 @interface ViewController : UIViewController
 
-
 @end
-

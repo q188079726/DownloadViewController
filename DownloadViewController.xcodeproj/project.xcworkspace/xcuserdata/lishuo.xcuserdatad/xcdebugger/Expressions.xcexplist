@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[DownloadQueueController URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]:DownloadQueueController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.downloadOperationQueue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__108-[DownloadQueueController URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]_block_invoke:DownloadQueueController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.downloadOperationQueue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GLOBAL">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.downloadOperationQueue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
